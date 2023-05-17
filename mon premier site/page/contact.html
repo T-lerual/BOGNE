@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact</title>
+    <meta charset="UTF8">
+
+
+
+</head>
+<body bgcolor="turquoise">
+<h1>Vos coordonnées</h1>
+<img src="work.png">
+<script>saisir vos coordonnes</script>
+<table>
+    <form  method="POST" action="">
+    <tr>
+        <td><label for="nom">Nom :</label></td>
+        <td><input type="text" id="nom" value="votre nom"></td>
+    </tr>
+    <tr>
+        <td><label for="prenom">Prénom :</label></td>
+        <td><input type="text" id="prenom" value="votre prenom"></td>
+    </tr>
+    <tr>
+        <td><label for="date">Date de naissance</label></td>
+        <td><input type="date" id="date"></td>
+    </tr>
+    <tr>
+        <td><label for="mail">Mail :</label></td>
+        <td><input type="email" id="mail" value="votre mail"></td>
+    </tr>
+    <tr>
+        <td><label for="site">Votre site</label></td>
+        <td><input type="text" id="site"></td>
+    </tr>
+    <tr>
+        <td><label for="code">Code :</label></td>
+        <td><input type="text" id="code"></td>
+    </tr>
+    <tr>
+        <td rowspan="2">Genre :</td>
+        <td><input type="radio" id="homme" name="sexe" value="1"><label for="homme">Homme</label></td>
+    </tr>
+    <tr>
+        <td><input type="radio" id="femme" name="sexe" value="0"><label for="femme">Femme</label></td>
+    </tr>
+    <tr>
+        <td><label for="pays">Pays:</label></td>
+        <td><select id="pays">
+                <option value="Cameroun">Cameroun</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Senegal">Senegal</option>
+                <option value="Ghana">Ghana</option>
+                <option value="France">France</option>
+                <option value="Australie">Australie</option>
+                <option value="Pologne">Pologne</option>
+                <option value="Belgique">Belgique</option>
+                <option value="Argentine">Argentine</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Mexique">Mexique</option>
+                <option value="Colombie">Colombie</option>
+        </select></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" id="fraise"><label for="fraise">Tarte aux fraises à la crème d'amandes</label></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" id="prune"><label for="prune">Tarte aux prunes</label></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" id="miel"><label for="miel">Tarte rustique aux mirabelles de Loraine, noisette et miel</label></td>
+    </tr>
+    <tr>
+        <td><textarea cols="30" rows="10">Decrivez vos goûts en détail</textarea></td>
+    </tr>
+    <tr>
+        <td><b><label for="photo">Envoyez nous votre photo</label></b></td>
+    </tr>
+    <tr>
+        <td><input type="file" id="photo"></td>
+    </tr>
+    <tr>
+        <td><input type="submit" value="Effacer"></td>
+        <td><input type="reset" value="Envoyer"></td>
+    </tr>
+</form> 
+</table>
+</body>
+</html>
